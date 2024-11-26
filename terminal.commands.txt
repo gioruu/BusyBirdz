@@ -1,0 +1,11 @@
+# Remove build and cache directories
+rm -rf .vercel
+rm -rf .vinxi
+rm -rf .output
+rm -rf node_modules
+
+# Reinstall dependencies
+npm install
+
+# Try building again
+npm run build
