@@ -93,3 +93,10 @@ img {
 /*
 * Misc
 */
+.custom-css {
+	padding: 32px;
+	background-color: red;
+	font-size: 32px;
+	letter-spacing: -0.03em;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
