@@ -8,7 +8,7 @@ import type { ReactNode } from 'react'
 import { NotFound } from 'src/components/NotFound'
 import { Header } from 'src/components/Header'
 import { Footer } from 'src/components/Footer'
-import '@/styles/index.css'
+import '@/styles/app.css'
 
 export const Route = createRootRoute({
    head: () => ({
